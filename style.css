@@ -1,7 +1,22 @@
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
 nav {
   display: flex;
   justify-content: space-around;
+  background-color: #1f2937;
+}
+h2 {
+  size: 24px;
+  color: #f9faf8;
+}
+a {
+  text-decoration: none;
+  size: 18px;
+  color: #e5e7eb;
 }
 .navbar-links {
   align-self: center;
+  text-decoration: none;
 }

@@ -26,6 +26,16 @@ a {
   color: #e5e7eb;
   margin: 5px;
 }
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 6px;
+  border: none;
+  padding: 2% 6%;
+  font-size: medium;
+  font-weight: 600;
+  margin-top: 18px;
+}
 .navbar-links {
   align-self: center;
 
@@ -36,5 +46,6 @@ a {
 }
 
 .container-hero {
+  padding: 10%;
   background-color: #1f2937;
 }

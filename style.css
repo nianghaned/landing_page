@@ -8,15 +8,33 @@ nav {
   background-color: #1f2937;
 }
 h2 {
-  size: 24px;
+  font-size: 24px;
   color: #f9faf8;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+p {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 a {
   text-decoration: none;
   size: 18px;
   color: #e5e7eb;
+  margin: 5px;
 }
 .navbar-links {
   align-self: center;
+
   text-decoration: none;
+}
+.container-nav {
+  padding: 3%;
+}
+
+.container-hero {
+  background-color: #1f2937;
 }

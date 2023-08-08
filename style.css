@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
   font-family: "Roboto", sans-serif;
 }
 nav {
@@ -7,10 +8,7 @@ nav {
   justify-content: space-around;
   background-color: #1f2937;
 }
-h2 {
-  font-size: 24px;
-  color: #f9faf8;
-}
+
 h1 {
   font-size: 48px;
   font-weight: 700;
@@ -26,7 +24,25 @@ a {
   color: #e5e7eb;
   margin: 5px;
 }
-button {
+#logo {
+  color: #f9faf8;
+  font-size: 24px;
+}
+.container-nav {
+  padding: 3%;
+}
+
+.navbar-links {
+  align-self: center;
+
+  text-decoration: none;
+}
+
+.container-hero {
+  padding: 10%;
+  background-color: #1f2937;
+}
+#hero-button {
   background-color: #3882f6;
   color: #e5e7eb;
   border-radius: 6px;
@@ -36,16 +52,13 @@ button {
   font-weight: 600;
   margin-top: 18px;
 }
-.navbar-links {
-  align-self: center;
-
-  text-decoration: none;
-}
-.container-nav {
-  padding: 3%;
+.section-two {
+  display: flex;
+  justify-content: center;
 }
 
-.container-hero {
-  padding: 10%;
-  background-color: #1f2937;
+#second-header {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bolder;
 }

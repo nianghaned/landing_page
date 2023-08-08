@@ -52,11 +52,14 @@ a {
   font-weight: 600;
   margin-top: 18px;
 }
-.section-two {
+.info-header {
   display: flex;
   justify-content: center;
 }
-
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
 #second-header {
   font-size: 36px;
   color: #1f2937;

@@ -24,6 +24,7 @@ a {
   color: #e5e7eb;
   margin: 5px;
 }
+
 #logo {
   color: #f9faf8;
   font-size: 24px;
@@ -59,9 +60,23 @@ a {
 .image-container {
   display: flex;
   justify-content: space-between;
+  width: 200px;
+  height: 100px;
 }
 #second-header {
   font-size: 36px;
   color: #1f2937;
   font-weight: bolder;
+}
+.section-two {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#hero-image {
+  height: 40vh;
+  width: 40;
+  float: right;
+  transform: translate(100px, -25%);
 }
